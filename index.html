@@ -7,34 +7,60 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+  <style>
+  *{
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  }
+  
+  p{
+    text-align: center;
+	padding: 5px 10px;
+	font-size:15px;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h4{
+  text-align: center;
+  }
+  .project{
+  padding: 10px 10px;
+  }
+  
+  </style>
 </head>
 <body>
 
 <div class="container">
-	<div class="col-sm-3">
-			<img src="pics/bryan.png" alt="My Face!" class="img-rounded">
+	<div class="row">
+		<div class="col-sm-3">
+				<img src="pics/bryan.png" alt="My Face!" class="img-rounded">
 		</div>
 		<div class="col-sm-9">
 			<div class="jumbotron">
 				<h1>Bryan Tai</h1>
 				<h3>Student | Software Developer</h3>
 				<h3>3rd Year Cognitive Systems (Computational Intelligence) Major </h3>
+				Contact me: bryan.tai@alumni.ubc.ca 
 			</div>
 		</div>
-	<div class="row">
-		<h4>About</h4>
-		  <p> I'm a Computer Science / Cognitive Systems student who loves AI, video games, and AI in video games.</p> 
+	</div>
+		
+	<div class="row" style="padding: 25px 50px">
+		<h2 class="text-center" >About</h2>
+		  <p> I'm a Computer Science / Cognitive Systems student who loves AI, video games, and programming AI into video games.</p> 
 		  
-		  <p> I'm well-versed in Object Oriented, Functional, and Logical programming as well as front and back end Web Development</p>
+		  <p> I'm well-versed in Object Oriented, Functional, and Logical programming as well as frontend and backend Web Development</p>
 	</div>
 	
   
 	<div class="row"> 
-			<div class="col-sm-1">
-		 
-		</div>		
-		<div class="col-sm-4">
-		  <h4>Languages</h4>
+			<div class="col-sm-1"></div>		
+		<div id="Languages" class="col-sm-4">
+		  <h3 class="text-center">Languages</h3>
 		  
 		  <div class="progress">
 			  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -71,13 +97,13 @@
 				Prolog
 			  </div>
 			</div>
-			<p> Currently Acquiring: <b>Scala, BashScript</b> </p>
+			<p class="text-center"> Currently Acquiring: <b>Scala, BashScript</b> </p>
 		</div>
 		
         <div class="col-sm-2"></div>
 		
-		<div class="col-sm-4">
-		  <h4>Tools/Frameworks</h4>
+		<div id="Tools" class="col-sm-4">
+		  <h3 class="text-center">Tools/Frameworks</h3>
 		  <p> </p>
 			  <div class="progress">
 				  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -86,12 +112,12 @@
 			</div>
 			<div class="progress">
 				  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					Microsoft Visual Studio
+					Git/GitHub
 				  </div>
 			</div>
 			<div class="progress">
 				  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					Git/GitHub
+					Microsoft Visual Studio
 				  </div>
 			</div>
 			<div class="progress">
@@ -114,26 +140,68 @@
 					Apache Subversion (SVN)
 				  </div>
 			</div>
-			<p> Currently Acquiring: <b>Bootstrap, Unity3D </b></p>
+			<p class="text-center"> Currently Acquiring: <b>Bootstrap, Unity3D </b></p>
 		</div>
 		
 		<div class="col-sm-1"> </div>	
 
   </div>
-  <div class="row">
-    <div class="col-sm-4">
-	 <h4>Projects</h4>
-		  <p> I've worked on 2 Android Apps, a Web App, and this Website.</p>
-		  <p> Soon I'll add pictures and links about each project.
+  <div class="row" style="padding: 25px 50px">
+  <h2 class="text-center">Projects</h2>
+  <div class="col-sm-1"></div>
+    <div id="Projects0" class="col-sm-4">
+	 <div id="project">
+	 <h4> This Website </h4>
+	   <img src="pics/bryan.png" alt="My Face!" class="img-rounded"  height="250">
+	   <p> My own website, styled with Bootstrap.<br>January 2015.</p>
+	 </div>
+	 
+	 <div id="project">
+	 <h4> Vibernate</h4>
+	   <img src="pics/vibernate.png" alt="vibernate!" class="img-rounded" width="250" height="250">
+	   <p> Automatically sets your Android device to "vibrate" or "ring" depending on your schedule.<br>January 2014. <a href="https://play.google.com/store/apps/details?id=com.napontaratan.vibratetimer">Play Store!</a></p>
+	 </div>
+		 
 	</div>
-	<div class="col-sm-4">
+	
+	<div class="col-sm-2"></div>
+	
+	<div id="Projects1" class="col-sm-4">
+	<div id="project">
+	 <h4> Support </h4>
+	   <img src="pics/support.png" alt="Support!" class="img-rounded" width="250" height="250">
+	   <p> 2D Platformer made in Unity during <br>Global Game Jam 2015. <a href="https://github.com/BryanTai/Support/releases"> GitHub</a></p>
+	   
+	 </div>
+	 <div id="project">
+	 <h4> TreeHugger </h4>
+	   <img src="pics/kawaiitree.png" alt="Trees!" class="img-rounded" width="250" height="250">
+	   <p>Web App for searching, mapping, and favouriting any tree in Vancouver. <br> November 2014. <a href="http://1-dot-high-extension-755.appspot.com/">See More!</a></p>
+	   
+	 </div>
+	</div>
+	<div class="col-sm-1"></div>
+	
+	
 	
 	</div>
-	<div class="col-sm-4">
+	
+	<div class="row">
+	<h2 class="text-center">Experience</h2>
+	<h4> Under Construction! :)</h4>
+	<p> <b>University of British Columbia </b>Undergrad Teaching Assistant, CPSC 210 and CPSC 221</p>
+	<p> <b>PNI Digital Media </b>Junior Coop Developer</p>
+	<p> <b>RKO Global Trading Ltd. </b>IT Consultant</p>
+	<p> <b>TechUpKids Summer Camp </b>first Teaching Assistant and first Camp Counsellor</p>
+	</div>
+	
+	<div class="row">
+	
 	
 	</div>
+
+	
 	</div>
  
-</div>
 </body>
 </html>
