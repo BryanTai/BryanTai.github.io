@@ -301,9 +301,19 @@
 				</div>
 			</div>
 			
-			<div class="row">
-				<div class="col-sm-12 portfolio-item">
+            <div class="row">
+				<div class="col-sm-6 portfolio-item">
 					<a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/fall_preview.png" class="img-responsive" alt="">
+					</a>
+				</div>
+				<div class="col-sm-6 portfolio-item">
+					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<i class="fa fa-search-plus fa-3x"></i>
@@ -316,7 +326,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<i class="fa fa-search-plus fa-3x"></i>
@@ -326,7 +336,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 portfolio-item">
-					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+					<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<i class="fa fa-search-plus fa-3x"></i>
@@ -378,7 +388,48 @@
 
 	<!-- Portfolio Modals TODO-->
 	
-	<div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Fall</h2>
+							<ul class="list-inline item-details">
+								<li>Platform:
+									<strong>Web Game</strong>
+								</li>
+								<li>Date:
+									<strong>January 2018</strong>
+								</li>
+								<li>Tools:
+									<strong>JavaScript, CanvasJS</strong>
+								</li>
+							</ul>
+							<p>Fall Faster!</p>
+                            
+                            <p>A simple falling game created in about a week using the <strong><a href="https://www.createjs.com/" target="blank">CreateJS libraries</a></strong> (EaselJS, TweenJS, SoundJS, and PreloadJS)</p>
+                            
+							<p>Features multiple control schemes, increasing difficulty, positive reinforcement, and home-made colliders :)</p> 
+							
+							<img src="img/fall.gif" class="img-responsive img-centered" alt="">
+							<h3><a href="https://github.com/BryanTai/Fall" target="blank"> Github Link </a></h3>
+							<h2><a href="http://brytai.com/Fall/" target="blank"> PLAY IT HERE! </a></h2>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
@@ -403,7 +454,9 @@
 								</li>
 							</ul>
 							<p>Melee Spaceship Combat!</p>
-							<blockquote class="imgur-embed-pub" lang="en" data-id="SiPoX8I"><a href="//imgur.com/SiPoX8I">Sometimes the simple strength of a sword is superior (Swordship)</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+							<video  class="img-responsive img-centered" alt="" autoplay loop muted>
+                                <source src="img/ship.mp4" type="video/mp4">
+                            </video>
 							
 							<p><strong>Swordship</strong> is a game where you fight with spaceships that can wield swords. Pick a weapon and destroy your opponent in one-on-one physics based combat!</p> 
 							<p> I developed the online multiplayer by using the <strong><a href="https://www.assetstore.unity3d.com/en/#!/content/16711">DarkRift</a></strong> framework to synchronize the fast-paced motion of multiple clients and servers.
@@ -419,7 +472,7 @@
 		</div>
 	</div>
 	
-	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
@@ -444,7 +497,9 @@
 								</li>
 							</ul>
 							<p>Perform a rain dance to make it rain!</p>
-							<img src="img/makeitrain2.png" class="img-responsive img-centered" alt="">
+							<video class="img-responsive img-centered" poster="img/makeitrain2.png" alt="" autoplay loop muted>
+                                <source src="img/dan.mp4" type="video/mp4">
+                            </video>
 							<p>Help Shaman Dan summon the rain by using the QWOP keys to control his limbs!</p> 
 							<p>I acted as Project Manager for a team of 7 to create <strong>MAKE IT RAIN</strong> during the 48 hour <strong><a href="http://www.ggjvancouver.com/" target="blank">Global Game Jam 2016</a></strong>. I organized our sprints by assigning user stories as well as integrated and QA'd our project. I created this idea to utilize the Collision and Physics support of the <strong><a href="https://unity3d.com/" target="blank">Unity game engine</a></strong>.
 							
@@ -458,7 +513,7 @@
 		</div>
 	</div>
 	
-	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
