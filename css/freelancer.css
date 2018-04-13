@@ -176,7 +176,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 section h2 {
@@ -196,6 +196,15 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #2c3e50;
+}
+
+section.lighter {
+    color: #fff;
+    background: #fff;
+}
+
+section.lighter h2 {
+    color:#004d00;
 }
 
 @media(max-width:767px) {
@@ -270,7 +279,7 @@ section.success a.active {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    background: #004d00;
     transition: all .3s ease-in-out;
 }
 
@@ -279,7 +288,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #009900;
+    color: #004d00;
     background: #fff;
 }
 
