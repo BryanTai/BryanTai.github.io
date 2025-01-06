@@ -207,6 +207,18 @@ section.lighter h2 {
     color:#004d00;
 }
 
+section.lighter h3 {
+    color:#004d00;
+}
+
+section.lighter li {
+    color:#004d00;
+}
+
+section.lighter p {
+    color:#004d00;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
